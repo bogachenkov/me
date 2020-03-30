@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/me/static/css/main.6c496473.chunk.css",
+    "main.js": "/me/static/js/main.5aa8f241.chunk.js",
+    "main.js.map": "/me/static/js/main.5aa8f241.chunk.js.map",
+    "runtime-main.js": "/me/static/js/runtime-main.50e3daf3.js",
+    "runtime-main.js.map": "/me/static/js/runtime-main.50e3daf3.js.map",
+    "static/css/2.764ccc25.chunk.css": "/me/static/css/2.764ccc25.chunk.css",
+    "static/js/2.9599ceae.chunk.js": "/me/static/js/2.9599ceae.chunk.js",
+    "static/js/2.9599ceae.chunk.js.map": "/me/static/js/2.9599ceae.chunk.js.map",
+    "index.html": "/me/index.html",
+    "precache-manifest.c44cbb557fac584950b03280ffff809d.js": "/me/precache-manifest.c44cbb557fac584950b03280ffff809d.js",
+    "service-worker.js": "/me/service-worker.js",
+    "static/css/2.764ccc25.chunk.css.map": "/me/static/css/2.764ccc25.chunk.css.map",
+    "static/css/main.6c496473.chunk.css.map": "/me/static/css/main.6c496473.chunk.css.map",
+    "static/js/2.9599ceae.chunk.js.LICENSE.txt": "/me/static/js/2.9599ceae.chunk.js.LICENSE.txt",
+    "static/media/beauty.jpg": "/me/static/media/beauty.1df808ae.jpg",
+    "static/media/behance-square.svg": "/me/static/media/behance-square.8cb683e3.svg",
+    "static/media/braces.jpg": "/me/static/media/braces.65c6129c.jpg",
+    "static/media/crios.jpg": "/me/static/media/crios.db517c17.jpg",
+    "static/media/dribbble-square.svg": "/me/static/media/dribbble-square.e69ed575.svg",
+    "static/media/dropbox.jpg": "/me/static/media/dropbox.4a27abe6.jpg",
+    "static/media/gai.jpg": "/me/static/media/gai.03a29300.jpg",
+    "static/media/github-square.svg": "/me/static/media/github-square.abf078d4.svg",
+    "static/media/github_white.svg": "/me/static/media/github_white.bba8ccb1.svg",
+    "static/media/gmail.jpg": "/me/static/media/gmail.89554080.jpg",
+    "static/media/licences.jpg": "/me/static/media/licences.22fe3169.jpg",
+    "static/media/mail_white.svg": "/me/static/media/mail_white.0eb00643.svg",
+    "static/media/share-square.svg": "/me/static/media/share-square.f9968f8a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.50e3daf3.js",
+    "static/css/2.764ccc25.chunk.css",
+    "static/js/2.9599ceae.chunk.js",
+    "static/css/main.6c496473.chunk.css",
+    "static/js/main.5aa8f241.chunk.js"
+  ]
+}
