@@ -1,0 +1,28 @@
+.Thanks {
+  text-align: center;
+  margin: 0 auto;
+  padding: 15px 30px;
+  color: #ffffff;
+
+  > h1 {
+    font-weight: 300;
+    font-size: 28px;
+    margin-bottom: 2em;
+  }
+
+  &--link {
+    margin-bottom: 3em;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+
+    > p {
+      margin: .5em 0;
+    }
+
+    > a {
+      color: #ffffff;
+    }
+  }
+}

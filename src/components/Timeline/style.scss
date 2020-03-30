@@ -1,0 +1,45 @@
+.Timeline {
+  position: relative;
+  margin:0 auto;
+  padding: .25em 0 2em;
+  font-family: 'Montserrat', sans-serif;
+  
+  &.scale {
+    &:before {
+      content: "";
+      border-left: 4px solid #47423b;
+      left: -0.25em;
+      top: 2em;
+      height: 100%;
+      position: absolute;
+      bottom: 0;
+      top: 0;
+      transform-origin:0 0;
+      animation:scaleVertical 1.4s .85s ease both 1;
+    }
+  
+    &:after {
+      content: "";
+      clear:both;
+      position: absolute;
+      bottom: 0px;
+      left: -10px;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background: none repeat scroll 0% 0% #47423b;
+      //animation:revealScaleUp 0.75s 2.82s ease both 1;
+      animation:revealScaleUp 0.5s 1.8s ease both 1;
+    }
+  }
+}
+
+@keyframes scaleVertical {
+  0% {
+    transform:scaleY(0);
+    
+  }
+  100% {
+    transform:scaleY(1);
+  }
+}

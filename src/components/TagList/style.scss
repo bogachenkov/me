@@ -1,0 +1,13 @@
+.TagList {
+  margin-bottom: 1.5em;
+  margin-top: -1.25em;
+
+  > .Tag {
+    margin-right: .5em;
+    margin-bottom: .5em;
+
+    &:last-child {
+      margin: 0;
+    }
+  }
+}

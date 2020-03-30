@@ -1,0 +1,11 @@
+.SkillsItem {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+
+  &--label {
+    font-size: 16px;
+    font-weight: 300;
+    margin: .5em 0;
+  }
+}

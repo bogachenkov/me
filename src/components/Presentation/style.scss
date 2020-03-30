@@ -1,0 +1,24 @@
+.Presentation {
+  > h3 {
+    font-size: 26px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  > h4 {
+    text-transform: uppercase;
+    //text-align: right;
+    font-size: 17px;
+    font-weight: 400;
+  }
+
+  > a {
+    transition: opacity .3s;
+    opacity: .8;
+    margin-right: .5em;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}

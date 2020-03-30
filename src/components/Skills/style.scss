@@ -1,0 +1,18 @@
+.Skills {
+  &.appear {
+    .Skills--content {
+      animation: skillsAppear .25s .75s ease-in-out both;
+    }
+  }
+}
+
+@keyframes skillsAppear {
+  0% {
+    opacity: 0;
+    transform:translateX(3em);
+  }
+  100% {
+    opacity: 1;
+    transform:translateX(0);
+  }
+}

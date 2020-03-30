@@ -1,0 +1,89 @@
+.Work {
+  overflow-x: hidden;
+  padding: 20px 0;
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    overflow-x: unset;
+    flex-flow: row wrap;
+  }
+
+  @media screen and (min-width: 1024px) {
+    flex-flow: row nowrap;
+  }
+
+  > .NarrowFrame {
+    z-index: 10;
+    
+    @media screen and (min-width: 768px) {
+      flex: 0 0 95%;
+      margin-bottom: 2em;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    @media screen and (min-width: 1024px) {
+      margin: 0;
+      flex: 1 1 60%;
+      transform: translateY(-40px);
+    }
+
+    &.revealFromLeft {
+      @media screen and (min-width: 1024px) {
+        animation: narrowFrameRevealFromLeft .5s .35s ease-in-out both;
+      }
+    }
+  }
+
+  > .Description {
+    position: relative;
+
+    @media screen and (min-width: 768px) {
+      flex: 0 0 100%;
+    }
+
+    @media screen and (min-width: 1024px) {
+      background-color: #f2f2f2;
+      flex: 1 1 40%;
+      transform: translateY(40px);
+
+      &::before {
+        content: "";
+        background-color: #f2f2f2;
+        position: absolute;
+        top: 0;
+        left: -50%;
+        height: 100%;
+        width: 50%;
+      }
+    }
+
+    &.revealFromRight {
+      @media screen and (min-width: 1024px) {
+        animation: descriptionRevealFromRight .5s .35s ease-in-out both;
+      }
+    }
+  }
+}
+
+@keyframes descriptionRevealFromRight {
+  0% {
+    opacity: 0.3;
+    transform: translateX(3em) translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0) translateY(40px);
+  }
+}
+
+@keyframes narrowFrameRevealFromLeft {
+  0% {
+    opacity: 0.3;
+    transform: translateX(-3em) translateY(-40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0) translateY(-40px);
+  }
+}
