@@ -10,11 +10,33 @@ import gmailImg from '../../images/Colored/gmail.jpg';
 import dropboxImg from '../../images/Colored/dropbox.jpg';
 import bracesImg from '../../images/Colored/braces.jpg';
 import criosImg from '../../images/Colored/crios.jpg';
+import worldImg from '../../images/Colored/world-infographics.jpg';
+
 import WorkLinks from '../../components/WorkLinks';
 
 const Portfolio:React.FC = () => {
   return (
     <>
+      <Screen id="world-infographics">
+        <Container centered>
+          <Work title="World Infographics"
+                img={worldImg}
+                tags={['React', 'TypeScript', 'D3.js', 'Apollo Client', 'CSS Grid']}>
+            <p>
+              Визуализация мировых данных 
+            </p>
+            <p>
+              Примеры графиков и карт на D3.js, основанных на мировой статистике.
+              Представлены данные о плотности населения стран, численности населения, площади стран, количества границ и другие.
+            </p>
+            <WorkLinks
+              demo="https://bogachenkov.github.io/world-visual/"
+              repo="https://github.com/bogachenkov/world-visual"
+            />
+          </Work>
+        </Container>
+      </Screen>
+
       <Screen id="beauty-point">
         <Container centered>
           <Work title="Beauty Point"

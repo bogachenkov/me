@@ -13,7 +13,6 @@ const Skills:React.FC = () => {
     { label: 'TypeScript', level: 5 },
     { label: 'GraphQL & Apollo', level: 5 },
     { label: 'D3.js', level: 4 },
-    { label: 'PostgreSQL', level: 3 },
     { label: 'Webpack', level: 5 },
     { label: 'Git', level: 6 },
   ])
