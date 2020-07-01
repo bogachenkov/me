@@ -43,7 +43,6 @@ const App:React.FC = () => {
 
   return (
     <ReactFullpage
-      licenseKey='D2539565-8A034167-96D021BD-CA153D53'
       //responsiveWidth={1440}
       scrollingSpeed={1000}
       easingcss3={'ease-in-out'}
