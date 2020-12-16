@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/me/static/css/main.266cf84b.chunk.css",
-    "main.js": "/me/static/js/main.7bdefdf6.chunk.js",
-    "main.js.map": "/me/static/js/main.7bdefdf6.chunk.js.map",
+    "main.css": "/me/static/css/main.4f4b2e2f.chunk.css",
+    "main.js": "/me/static/js/main.47e64f38.chunk.js",
+    "main.js.map": "/me/static/js/main.47e64f38.chunk.js.map",
     "runtime-main.js": "/me/static/js/runtime-main.50e3daf3.js",
     "runtime-main.js.map": "/me/static/js/runtime-main.50e3daf3.js.map",
     "static/css/2.764ccc25.chunk.css": "/me/static/css/2.764ccc25.chunk.css",
-    "static/js/2.45e6c740.chunk.js": "/me/static/js/2.45e6c740.chunk.js",
-    "static/js/2.45e6c740.chunk.js.map": "/me/static/js/2.45e6c740.chunk.js.map",
+    "static/js/2.5aafa499.chunk.js": "/me/static/js/2.5aafa499.chunk.js",
+    "static/js/2.5aafa499.chunk.js.map": "/me/static/js/2.5aafa499.chunk.js.map",
     "index.html": "/me/index.html",
-    "precache-manifest.b237ea6423a3438725c3720088b1d21c.js": "/me/precache-manifest.b237ea6423a3438725c3720088b1d21c.js",
+    "precache-manifest.de3e11817d0c0126cabf80928962498e.js": "/me/precache-manifest.de3e11817d0c0126cabf80928962498e.js",
     "service-worker.js": "/me/service-worker.js",
     "static/css/2.764ccc25.chunk.css.map": "/me/static/css/2.764ccc25.chunk.css.map",
-    "static/css/main.266cf84b.chunk.css.map": "/me/static/css/main.266cf84b.chunk.css.map",
-    "static/js/2.45e6c740.chunk.js.LICENSE.txt": "/me/static/js/2.45e6c740.chunk.js.LICENSE.txt",
+    "static/css/main.4f4b2e2f.chunk.css.map": "/me/static/css/main.4f4b2e2f.chunk.css.map",
+    "static/js/2.5aafa499.chunk.js.LICENSE.txt": "/me/static/js/2.5aafa499.chunk.js.LICENSE.txt",
     "static/media/api-query.png": "/me/static/media/api-query.8332736c.png",
     "static/media/beauty.jpg": "/me/static/media/beauty.1df808ae.jpg",
     "static/media/behance-square.svg": "/me/static/media/behance-square.8cb683e3.svg",
@@ -27,14 +27,15 @@
     "static/media/home-decor.jpg": "/me/static/media/home-decor.448b88fd.jpg",
     "static/media/licences.jpg": "/me/static/media/licences.22fe3169.jpg",
     "static/media/mail_white.svg": "/me/static/media/mail_white.0eb00643.svg",
+    "static/media/presentation.mp4": "/me/static/media/presentation.7b1481ef.mp4",
     "static/media/share-square.svg": "/me/static/media/share-square.f9968f8a.svg",
     "static/media/world-infographics.jpg": "/me/static/media/world-infographics.b0e07f40.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.50e3daf3.js",
     "static/css/2.764ccc25.chunk.css",
-    "static/js/2.45e6c740.chunk.js",
-    "static/css/main.266cf84b.chunk.css",
-    "static/js/main.7bdefdf6.chunk.js"
+    "static/js/2.5aafa499.chunk.js",
+    "static/css/main.4f4b2e2f.chunk.css",
+    "static/js/main.47e64f38.chunk.js"
   ]
 }
